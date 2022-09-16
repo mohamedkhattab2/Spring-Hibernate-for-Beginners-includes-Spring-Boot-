@@ -2,16 +2,16 @@
 <DOCTYPE html>
 <html>
 <head>
-<title>Hello World - Input Form</title>
+<title>Student Confirmation</title>
 </head>
 
 <body>
 
-	<h2>Hello world of Spring</h2>
-	<br>
-	<br> Student name: ${param.studentName }
-	<br>
-	<br> The message: ${message}
+
+The student is confirmed: ${student.firstName} ${student.lastName }
+
+<br><br>
+Country: ${student.country }
 
 </body>
 </html>
